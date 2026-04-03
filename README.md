@@ -47,7 +47,7 @@ Server: hostname db, port 5432, username admin, password admin123, database lati
 
 ## Struktur Proyek
 
-```markdown
+```
 ├── main.py              # Entry point FastAPI, endpoint definitions
 ├── models.py            # SQLAlchemy models (tabel database)
 ├── schemas.py           # Pydantic schemas (validasi request/response)
@@ -66,6 +66,7 @@ Server: hostname db, port 5432, username admin, password admin123, database lati
 ├── .dockerignore
 ├── .gitignore
 └── README.md
+```
 
 ## Seeding Data Awal
 
